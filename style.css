@@ -1,0 +1,49 @@
+.onebody {
+    background-color: rgb(113, 97, 195);
+}
+.sevenbody {
+    background-color:rgb(83, 156, 83);
+}
+.tenbody {
+    background-color:rgb(161, 92, 92);
+}
+.ninetyeightbody {
+    background-color:rgb(192, 118, 65);
+}
+.xpbody {
+    background-color: rgb(139, 89, 139);
+}
+.homebody {
+    background-color:rgb(227, 207, 109);
+    color:rgb(143, 119, 0);
+    text-align: center;
+}
+.carousel-item > img {
+    height: 600px;
+    width: 800px;
+}
+#onetext {
+    color: rgb(11, 29, 81);
+}
+#seventext {
+    color: rgb(13, 72, 13);
+}
+#tentext {
+    color: rgb(83, 13, 13);
+}
+#ninetyeighttext {
+    color: rgb(170, 90, 4);
+}
+#xptext {
+    color: rgb(56, 15, 56);
+}
+.headings {
+    text-align: center;
+}
+.col-sm-6 {
+    text-align: center;
+}
+.col-sm-6 > a > img {
+    height: 350px;
+    width: 450px;
+}
