@@ -6,11 +6,14 @@
     <title>Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   </head>
   <body class="homebody">
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand active" aria-current="page" href="index.html">Home</a>
+          <a class="navbar-brand active" aria-current="page" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-windows" viewBox="0 0 16 16">
+            <path d="M6.555 1.375 0 2.237v5.45h6.555V1.375zM0 13.795l6.555.933V8.313H0v5.482zm7.278-5.4.026 6.378L16 16V8.395H7.278zM16 0 7.33 1.244v6.414H16V0z"/>
+          </svg> Home</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -35,32 +38,35 @@
           </div>
         </div>
       </nav>
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="windowscarousel1.jpg" class="d-block w-100" alt="carousel1">
+            </div>
+            <div class="carousel-item">
+              <img src="newslide2.jpg" class="d-block w-100" alt="carousel2">
+            </div>
+            <div class="carousel-item">
+              <img src="windowscarousel3.jpg" class="d-block w-100" alt="carousel3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="windowscarousel1.jpg" class="d-block w-100" alt="carousel1">
-          </div>
-          <div class="carousel-item">
-            <img src="windowscarousel2.jpg" class="d-block w-100" alt="carousel2">
-          </div>
-          <div class="carousel-item">
-            <img src="windowscarousel3.jpg" class="d-block w-100" alt="carousel3">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
+      <br>
       <div class="container">
         <div class="row">
             <div class="col-sm-4">

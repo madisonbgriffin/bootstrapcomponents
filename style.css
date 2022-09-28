@@ -17,10 +17,11 @@
     background-color:rgb(227, 207, 109);
     color:rgb(143, 119, 0);
     text-align: center;
+    padding-top: 70px;
 }
-.carousel-item > img {
-    height: 600px;
-    width: 800px;
+.carousel-inner > img {
+    height: 400px;
+    width: 100%;
 }
 #onetext {
     color: rgb(11, 29, 81);
@@ -46,4 +47,13 @@
 .col-sm-6 > a > img {
     height: 350px;
     width: 450px;
+}
+table {
+    background-color: rgb(123, 168, 172);
+}
+th {
+    color:rgb(170, 89, 2);
+}
+td {
+    color:rgb(187, 108, 24);
 }
